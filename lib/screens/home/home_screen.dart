@@ -20,7 +20,7 @@ class HomeScreen extends StatelessWidget {
         title: Text('Hi, ${agent?.name}'),
         leading: IconButton(
             onPressed: () => Scaffold.of(context).openDrawer(),
-            icon: const Icon(Icons.menu)),
+            icon: const Icon(Icons.menu),),
         actions: [
           IconButton(
             onPressed: () {
@@ -39,7 +39,7 @@ class HomeScreen extends StatelessWidget {
               color: Colors.red,
               shape: Styles.cardShape,
               child: const Padding(
-                padding: EdgeInsets.all(8.0),
+                padding: Styles.padding,
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
@@ -72,7 +72,7 @@ class HomeScreen extends StatelessWidget {
               color: Colors.white,
               surfaceTintColor: Colors.white,
               child: const Padding(
-                padding: EdgeInsets.all(8.0),
+                padding: Styles.padding,
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [

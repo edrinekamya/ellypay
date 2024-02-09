@@ -36,7 +36,8 @@ class NavAction extends StatelessWidget {
                   color: Colors.red,
                 ),
           style: const ButtonStyle(
-              backgroundColor: MaterialStatePropertyAll(Colors.white)),
+            backgroundColor: MaterialStatePropertyAll(Colors.white),
+          ),
         ),
         Text(
           title,

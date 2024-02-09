@@ -12,28 +12,29 @@ class IconListTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-        color: Colors.white,
-        surfaceTintColor: Colors.white,
-        shape: Styles.cardShape,
-        child: ListTile(
-          leading: Icon(
-            icon,
-            color: Styles.brandColor,
-          ),
-          title: Text(
-            title,
-            style: Styles.primaryText,
-          ),
-          subtitle: subtitle != null
-              ? Text(
-                  subtitle!,
-                  style: Styles.greyText,
-                )
-              : null,
-          trailing: const Icon(
-            Icons.arrow_forward_rounded,
-            color: Styles.brandColor,
-          ),
-        ));
+      color: Colors.white,
+      surfaceTintColor: Colors.white,
+      shape: Styles.cardShape,
+      child: ListTile(
+        leading: Icon(
+          icon,
+          color: Styles.brandColor,
+        ),
+        title: Text(
+          title,
+          style: Styles.primaryText,
+        ),
+        subtitle: subtitle != null
+            ? Text(
+                subtitle!,
+                style: Styles.greyText,
+              )
+            : null,
+        trailing: const Icon(
+          Icons.arrow_forward_rounded,
+          color: Styles.brandColor,
+        ),
+      ),
+    );
   }
 }
