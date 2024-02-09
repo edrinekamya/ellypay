@@ -9,8 +9,8 @@ class AuthProvider with ChangeNotifier {
 
   Future<void> signIn() async {
     agent = Agent(
-        name: 'Tebandeke Bernard Fred',
-        company: 'Bruthen Inc',
+        name: 'User name',
+        company: 'Company Inc',
         number: 2302153,
         );
     // Save the agent to shared preferences
