@@ -7,7 +7,7 @@ A UI clone of the EllyPay app
 ```bash
 git clone https://github.com/edrinekamya/ellypay.git
 
-cd <project_directory>
+cd ellypay
 
 flutter pub get
 
