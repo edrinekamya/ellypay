@@ -27,7 +27,7 @@ class HomeScreen extends StatelessWidget {
               context.go('/login');
               context.read<AuthProvider>().signOut();
             },
-            icon: const Icon(Icons.input),
+            icon: const Icon(Icons.exit_to_app_rounded),
           )
         ],
       ),
@@ -97,7 +97,7 @@ class HomeScreen extends StatelessWidget {
             Expanded(
               child: GridView.count(
                 crossAxisCount: 3,
-                padding: Styles.padding,
+                padding: const EdgeInsets.fromLTRB(8, 8, 8, 32),
                 mainAxisSpacing: 4.0,
                 crossAxisSpacing: 4.0,
                 children: const [

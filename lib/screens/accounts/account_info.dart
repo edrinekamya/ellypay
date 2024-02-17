@@ -78,7 +78,7 @@ class AccountInfo extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      'UGX. $balance',
+                      'UGX. ${balance.formattedWithCommas}',
                       style: Styles.primaryText,
                     ),
                     IconButton(
